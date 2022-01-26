@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  flex-direction: column;
+}
+
+.image_container {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.image_container #image {
+  width: auto;
+  height: 100%;
+}
+
+#button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  cursor: pointer;
+
+  text-transform: uppercase;
+}
+
+#button:hover {
+  transition: 0.3s;
+  background-color: wheat;
+}
